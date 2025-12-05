@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import bookCover  from './assets/recipebookcover.png'
 import './App.css'
+import { RecipeForm } from './Form';
 
 function App() {
   const [recipes, setRecipes] = useState([]);
@@ -23,9 +24,11 @@ function App() {
     <>
       <div className='cover-wrap'>
         <div className='row'>
+          
           <div className="col">
              <img src={bookCover} className="cover" alt="book cover" />
           </div>      
+          
           <div className="col">
             <div className='recipe-display'>
             {recipes.map((recipe) =>(
@@ -37,6 +40,9 @@ function App() {
           ))}
            </div>
           </div>
+            <div className="col">
+             <RecipeForm />
+           </div>
         </div>
       </div>
     </>
