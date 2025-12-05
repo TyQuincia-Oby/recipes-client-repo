@@ -1,0 +1,36 @@
+#root {
+  max-width: 1280px;
+  margin: 100px;
+  padding: 2rem;
+  text-align: center;
+  background-color: burlywood;
+  border-radius: 30px;
+  height: 100vh;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.cover{
+  height: 500px;
+  margin: 50px;
+  border-radius: 50px;
+}
+
+.cover-wrap{
+  height: 1000px;
+  background-color: #3F220F;
+  border-radius: 30px;
+}
+
+body{
+  background-color: #772014;
+  color: burlywood;
+}
+
+.recipe-display{
+   height: 400px;
+   overflow-y: scroll;
+   scrollbar-width: thin;
+   scrollbar-color: #772014;
+   margin: 10px;
+}
